@@ -58,7 +58,7 @@ const CourseCard = ({ course }) => {
 };
 */
 import React from 'react';
-import "./CourseCard.css";
+import "./courseCard.css";
 import { server } from "../../main";
 import { UserData } from '../../context/UserContext';
 import { useNavigate } from 'react-router-dom';
