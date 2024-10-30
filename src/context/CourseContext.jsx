@@ -5,7 +5,7 @@ import { createContext,useContext,useEffect,useState } from "react";
 
 
 const CourseContext = createContext();
-const server = "http://localhost:5000";
+import { server } from "../main";
 
 export const CourseContextProvider = ({ children }) => {
     const [courses, setCourses] = useState([])
